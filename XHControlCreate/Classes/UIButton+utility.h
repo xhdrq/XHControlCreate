@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import <YYCategories/UIImage+YYAdd.h>
 
 typedef NS_ENUM(NSInteger, YXButtonSubViewPositon) {
     YXButtonSubViewPositonRight,
@@ -74,6 +73,5 @@ typedef NS_ENUM(NSInteger, YXButtonSubViewPositon) {
 
 
 
-- (void)setLongButtonBackBroundImage;
 
 @end

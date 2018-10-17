@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		07248A54124972975736EED6C45CB85C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		188814A2ED2239FB95A6AAB3C62A2656 /* XHControlCreate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD05FEC8F5F7B12AE95E5E46FD4AE52 /* XHControlCreate-dummy.m */; };
+		3FF9B71D2177046F0018FE5C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9B7152177046F0018FE5C /* .gitkeep */; };
+		3FF9B71E2177046F0018FE5C /* UILabel+create.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF9B7172177046F0018FE5C /* UILabel+create.h */; };
+		3FF9B71F2177046F0018FE5C /* UIButton+utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF9B7182177046F0018FE5C /* UIButton+utility.h */; };
+		3FF9B7202177046F0018FE5C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9B7192177046F0018FE5C /* .gitkeep */; };
+		3FF9B7212177046F0018FE5C /* UIButton+utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9B71A2177046F0018FE5C /* UIButton+utility.m */; };
+		3FF9B7222177046F0018FE5C /* UILabel+create.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9B71B2177046F0018FE5C /* UILabel+create.m */; };
+		3FF9B7232177046F0018FE5C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9B71C2177046F0018FE5C /* ReplaceMe.m */; };
 		7B577BDE13FA396C01CACB0388846567 /* XHControlCreate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 055F1F4312E27D920B9DEC6C2FDECFF0 /* XHControlCreate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DD90284C6AB26205B5A97430CE5CFE9 /* Pods-XHControlCreate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDDB1D87266B823DFE3BA56CAA133BB6 /* Pods-XHControlCreate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A426225750398FC42D7B9B5AA8EA1F07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -37,9 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033EFC8B5C0AEE925F6C4B3BBEFD3E9A /* XHControlCreate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XHControlCreate.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		033EFC8B5C0AEE925F6C4B3BBEFD3E9A /* XHControlCreate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = XHControlCreate.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		055F1F4312E27D920B9DEC6C2FDECFF0 /* XHControlCreate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHControlCreate-umbrella.h"; sourceTree = "<group>"; };
-		06B2238A690EB2184D6E7B7DEBB31587 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		06B2238A690EB2184D6E7B7DEBB31587 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0BBFBBEC2A1A458FCB290C5FBCF60A2C /* Pods-XHControlCreate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XHControlCreate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		117C4E407020F11B000ADC024E0DF90A /* Pods-XHControlCreate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHControlCreate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		17B571419710AA2BCC39F35788524027 /* Pods-XHControlCreate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XHControlCreate_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -48,6 +55,13 @@
 		3ED6DBBA3BE41CE0D8E3C275F2DD6773 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XHControlCreate/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		3F19EF3CD4DB01CF3000E5306E1C117A /* Pods-XHControlCreate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHControlCreate_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3FD853267AF091DE8800F94B8767559E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF9B7152177046F0018FE5C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		3FF9B7172177046F0018FE5C /* UILabel+create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+create.h"; sourceTree = "<group>"; };
+		3FF9B7182177046F0018FE5C /* UIButton+utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+utility.h"; sourceTree = "<group>"; };
+		3FF9B7192177046F0018FE5C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		3FF9B71A2177046F0018FE5C /* UIButton+utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+utility.m"; sourceTree = "<group>"; };
+		3FF9B71B2177046F0018FE5C /* UILabel+create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+create.m"; sourceTree = "<group>"; };
+		3FF9B71C2177046F0018FE5C /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		489BEB483EB2D18921A6008FDBE56ECC /* Pods-XHControlCreate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XHControlCreate_Tests.modulemap"; sourceTree = "<group>"; };
 		4AFFC5B1E488602A782A93D0A6312BC0 /* Pods-XHControlCreate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHControlCreate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4DBAD17078B94040DE08ABFBFBCA9FCC /* Pods-XHControlCreate_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XHControlCreate_Example-resources.sh"; sourceTree = "<group>"; };
@@ -55,14 +69,14 @@
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5F659AE1D5A1862DA99F7E50DB28B4F3 /* XHControlCreate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHControlCreate-prefix.pch"; sourceTree = "<group>"; };
 		62A3293DF0C888FEEDBD245619E22672 /* XHControlCreate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHControlCreate.xcconfig; sourceTree = "<group>"; };
-		76B530DE8BC789DD2A5198B5E3F9C9D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		76B530DE8BC789DD2A5198B5E3F9C9D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7C6C8F64C406D793261032D41BD6BF63 /* XHControlCreate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XHControlCreate.modulemap; sourceTree = "<group>"; };
-		7FE0B7E95E363E94FC79813B62A88C54 /* XHControlCreate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XHControlCreate.framework; path = XHControlCreate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE0B7E95E363E94FC79813B62A88C54 /* XHControlCreate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XHControlCreate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAE943FD6C29B063890F28326ED5BD3 /* Pods-XHControlCreate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHControlCreate_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9704249ACA10C95E7CAA8D2603E5DB36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98634BC978D885E888E35FE269D41490 /* Pods_XHControlCreate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHControlCreate_Example.framework; path = "Pods-XHControlCreate_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FB108F6E4CC2DC37390422BD6FB0E4C /* Pods_XHControlCreate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHControlCreate_Tests.framework; path = "Pods-XHControlCreate_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98634BC978D885E888E35FE269D41490 /* Pods_XHControlCreate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHControlCreate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB108F6E4CC2DC37390422BD6FB0E4C /* Pods_XHControlCreate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHControlCreate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD755EAC4BC74FD96885FE89590E8D92 /* Pods-XHControlCreate_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XHControlCreate_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B4D213199432441C17BADC2C37B3C205 /* Pods-XHControlCreate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XHControlCreate_Example-umbrella.h"; sourceTree = "<group>"; };
 		BE4AF3F8A52BD126605B4D8AF6D9AF15 /* Pods-XHControlCreate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHControlCreate_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -134,6 +148,29 @@
 			path = "Example/Pods/Target Support Files/XHControlCreate";
 			sourceTree = "<group>";
 		};
+		3FF9B7142177046F0018FE5C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3FF9B7152177046F0018FE5C /* .gitkeep */,
+			);
+			name = Assets;
+			path = XHControlCreate/Assets;
+			sourceTree = "<group>";
+		};
+		3FF9B7162177046F0018FE5C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3FF9B7172177046F0018FE5C /* UILabel+create.h */,
+				3FF9B7182177046F0018FE5C /* UIButton+utility.h */,
+				3FF9B7192177046F0018FE5C /* .gitkeep */,
+				3FF9B71A2177046F0018FE5C /* UIButton+utility.m */,
+				3FF9B71B2177046F0018FE5C /* UILabel+create.m */,
+				3FF9B71C2177046F0018FE5C /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = XHControlCreate/Classes;
+			sourceTree = "<group>";
+		};
 		4EA2FF08974354598C7131A036F52782 /* Pods-XHControlCreate_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +200,8 @@
 		7098F7CE1E47C5AB0760499614BC3FF8 /* XHControlCreate */ = {
 			isa = PBXGroup;
 			children = (
+				3FF9B7142177046F0018FE5C /* Assets */,
+				3FF9B7162177046F0018FE5C /* Classes */,
 				3ED6DBBA3BE41CE0D8E3C275F2DD6773 /* ReplaceMe.m */,
 				09FDE90658A588E4B480881464C7F33B /* Pod */,
 				23253004A603BF24E3C669D379D09AD5 /* Support Files */,
@@ -242,7 +281,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF9B71F2177046F0018FE5C /* UIButton+utility.h in Headers */,
 				ED5AAD2AC83F327211B523DCC7B22256 /* Pods-XHControlCreate_Example-umbrella.h in Headers */,
+				3FF9B71E2177046F0018FE5C /* UILabel+create.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +401,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF9B71D2177046F0018FE5C /* .gitkeep in Resources */,
+				3FF9B7202177046F0018FE5C /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +430,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF9B7232177046F0018FE5C /* ReplaceMe.m in Sources */,
+				3FF9B7222177046F0018FE5C /* UILabel+create.m in Sources */,
+				3FF9B7212177046F0018FE5C /* UIButton+utility.m in Sources */,
 				D2CAC175A4BA999818F7F2177D42FABA /* Pods-XHControlCreate_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

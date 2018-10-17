@@ -105,13 +105,6 @@
 }
 
 
-- (void)setLongButtonBackBroundImage {
-    
-    [self setBackgroundImage:[UIImage imageWithColor:[UIColor yxButtonDefaultColor]] forState:UIControlStateNormal];
-    [self setBackgroundImage:[UIImage imageWithColor:[UIColor yxButtonHighlighteColor]] forState:UIControlStateHighlighted];
-    [self setBackgroundImage:[UIImage imageWithColor:[UIColor yxButtonDisabledColor]] forState:UIControlStateDisabled];
-    
-    [self makeCorners:6];
-}
+
 
 @end
