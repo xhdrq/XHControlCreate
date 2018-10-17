@@ -1,0 +1,16 @@
+PODS:
+  - XHControlCreate (0.1.0)
+
+DEPENDENCIES:
+  - XHControlCreate (from `../`)
+
+EXTERNAL SOURCES:
+  XHControlCreate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XHControlCreate: d831684291fa6c2b70a76f3bea95f9985141e61a
+
+PODFILE CHECKSUM: cf62597d1feba3ee4615ef1c1f8dd5f0414bbab0
+
+COCOAPODS: 1.5.3

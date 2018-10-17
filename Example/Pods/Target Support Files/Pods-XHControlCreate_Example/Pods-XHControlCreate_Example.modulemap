@@ -1,0 +1,6 @@
+framework module Pods_XHControlCreate_Example {
+  umbrella header "Pods-XHControlCreate_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
